@@ -8,7 +8,7 @@ import {
 const cities = citiesAll.map((item)=>({...item, coordinates: [Number(item.coordinates.lon), Number(item.coordinates.lat)]}));
 
 
-function HeroSection(props) {
+function Map(props) {
 //   const [slug,setSlug] = useState(window.location.href.substring(window.location.href.lastIndexOf('/') + 1))
   const [slug,setSlug] = useState('pohod-1991-snezhnogo-desanta-istoricheskogo-fakulteta')
   const [selectedCity, setSelectedCity] = useState(null);
@@ -111,4 +111,4 @@ function HeroSection(props) {
   );
 }
 
-export default HeroSection;
+export default Map;

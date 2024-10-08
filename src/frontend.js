@@ -7,7 +7,7 @@ import {
   useQuery,
 } from '@tanstack/react-query'
 import "preline/preline";
-import HeroSection from "./HeroSection";
+import Map from "./Map";
 
 
 
@@ -26,7 +26,7 @@ function OurComponent(props) {
 
   return (
   <QueryClientProvider client={queryClient}>
-    <HeroSection props={props}/>
+    <Map props={props}/>
   </QueryClientProvider>
     
   )
