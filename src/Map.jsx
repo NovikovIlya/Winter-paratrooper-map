@@ -4,11 +4,21 @@ import { zoom, zoomIdentity } from 'd3-zoom';
 import { select } from 'd3-selection';
 import { citiesAll } from './cities';
 import { useQuery } from '@tanstack/react-query';
+import { citiesTwo } from './citiesTwo';
 
-const cities = citiesAll.map((item) => ({ ...item, coordinates: [Number(item.coordinates.lon), Number(item.coordinates.lat)] }));
+const cities = citiesAll
+  .map((item) => ({ ...item, coordinates: [Number(item.coordinates.lon), Number(item.coordinates.lat)] }))
+  .concat(citiesTwo)
+  .filter((city, index, self) =>
+    index === self.findIndex((c) => (
+      c.coordinates[0] === city.coordinates[0] && c.coordinates[1] === city.coordinates[1]
+    ))
+  );
+
 
 function Map() {
   const [slug, setSlug] = useState('pohod-1989-g-snezhnogo-desanta-istoricheskogo-fakulteta-2');
+  //   const [slug,setSlug] = useState(window.location.href.substring(window.location.href.lastIndexOf('/') + 1))
   const [selectedCity, setSelectedCity] = useState(null);
   const [russiaGeoJson, setRussiaGeoJson] = useState(null);
   const [showRoute, setShowRoute] = useState(true);
