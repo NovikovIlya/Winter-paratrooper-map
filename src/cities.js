@@ -3471,6 +3471,16 @@ export const citiesAll = [
     },
     {
       "coordinates": {
+        "lat": "55.91667",
+        "lon": "32.08333"
+      },
+      "district": "Холм-Жирковский",
+      "name": "Холм-Жирковский",
+      "population": 26122,
+      "subject": "Холм-Жирковский"
+    },
+    {
+      "coordinates": {
         "lat": "45.71667",
         "lon": "42.9"
       },
@@ -8416,6 +8426,16 @@ export const citiesAll = [
       },
       "district": "Северо-Западный",
       "name": "Санкт-Петербург",
+      "population": 5601911,
+      "subject": "Санкт-Петербург"
+    },
+    {
+      "coordinates": {
+        "lat": "59.95",
+        "lon": "30.31667"
+      },
+      "district": "Северо-Западный",
+      "name": "Ленинград",
       "population": 5601911,
       "subject": "Санкт-Петербург"
     },

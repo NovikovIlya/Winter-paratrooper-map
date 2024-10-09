@@ -613,11 +613,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   margin-bottom: 0.5rem;
 }
 
-.my-unique-plugin-wrapper-class .my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .my-unique-plugin-wrapper-class .\!me-1 {
   margin-inline-end: 0.25rem !important;
 }
@@ -636,10 +631,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .my-unique-plugin-wrapper-class .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.my-unique-plugin-wrapper-class .mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .my-unique-plugin-wrapper-class .mr-3 {
@@ -831,10 +822,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   border-radius: 0.125rem !important;
 }
 
-.my-unique-plugin-wrapper-class .rounded {
-  border-radius: 0.25rem;
-}
-
 .my-unique-plugin-wrapper-class .rounded-full {
   border-radius: 9999px;
 }
@@ -877,11 +864,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   border-color: rgb(229 231 235 / var(--tw-border-opacity)) !important;
 }
 
-.my-unique-plugin-wrapper-class .border-amber-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(252 211 77 / var(--tw-border-opacity));
-}
-
 .my-unique-plugin-wrapper-class .border-blue-300 {
   --tw-border-opacity: 1;
   border-color: rgb(147 197 253 / var(--tw-border-opacity));
@@ -914,11 +896,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
-.my-unique-plugin-wrapper-class .bg-amber-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 243 199 / var(--tw-bg-opacity));
-}
-
 .my-unique-plugin-wrapper-class .bg-blue-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
@@ -927,11 +904,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .my-unique-plugin-wrapper-class .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
-
-.my-unique-plugin-wrapper-class .bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .my-unique-plugin-wrapper-class .bg-gray-200 {
@@ -986,11 +958,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .my-unique-plugin-wrapper-class .px-4 {
   padding-right: 1rem;
   padding-left: 1rem;
-}
-
-.my-unique-plugin-wrapper-class .py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .my-unique-plugin-wrapper-class .py-2 {
@@ -1131,10 +1098,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
-.hover\:bg-gray-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1154,10 +1117,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .focus\:ring-blue-500:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
-}
-.active\:bg-gray-300:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 .disabled\:pointer-events-none:disabled {
   pointer-events: none;
